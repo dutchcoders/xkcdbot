@@ -17,34 +17,59 @@
     <div class="docs-section" id="intro">
         <h6 class="docs-header"><b>Introduction</b></h6>
         <p>The XKCD bot will surprise you with random XKCD images.</p>
+        <p>
+        <a href="https://heroku.com/deploy?template=https://github.com/dutchcoders/xkcdbot">
+            <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
+        </a>
+        </p>
     </div>
     <div class="docs-section" id="intro">
-        <h6 class="docs-header"><b>Configure your Slack Integrations</b></h6>
+        <h6 class="docs-header"><b>Configure your Slack Integration</b></h6>
         <p> 
         <ul>
             <li>Create a new <a href="https://api.slack.com/slash-commands">Slash Command</a></li>
             <ul>
                 <li>Name the command /xkcd</li>
-                <li>Set the URL to be <a href="https://xkcdbot.herokuapp.com/">https://xkcdbot.herokuapp.com/</a>.</li>
+                <li>Set the URL to be your the location of your deployment.</li>
                 <li>Method should be POST</li>
                 <li>Add some usefull information and usage information</li>
             </ul>
         </ul>
         <ul>
             <li>Create a new <a href="https://api.slack.com/incoming-webhooks">Incoming Webhook</a></li>
-            <ul>
-                <li>Name the command /keybase</li>
-                <li>Set the URL to be <a href="https://xkcdbot.herokuapp.com/">https://xkcdbot.herokuapp.com/</a>.</li>
-                <li>Method should be POST</li>
-                <li>Add some usefull information and usage information</li>
-            </ul>
+        </ul>
+        <ul>
+            <li>Configure the environment variable <b>WEBHOOK_URL</b> and <b>SLACK_TOKEN</b>.</li>
         </ul>
     </div>
     <div class="docs-section" id="intro">
         <h6 class="docs-header"><b>Usage</b></h6>
-        <p>Ok, now you can test the integration. Type <pre>/xkcd</pre> in Slack, and you'll get the response.</a>
-        <br/>
-        <img src="img/screenshot.png" style="width: 400px;"/>
+        <pre>
+            /xkcd random
+            /xkcd latest
+            /xkcd {num}
+        </pre>
+        <p>Ok, now you can test the integration. Type <pre>/xkcd</pre> in Slack, and you'll get the usage.</a>
+    </div>
+    <div class="docs-section" id="demo">
+        <h6 class="docs-header"><b>Demo</b></h6>
+        <img src="img/demo.gif" style=""/>
+    </div>
+    <div class="docs-section" id="creator">
+        <h6 class="docs-header"><b>Creators</b></h6>
+        <p><strong>Remco Verhoef</strong></p>
+        <ul class="task-list">
+            <li><a href="https://twitter.com/remco_verhoef">https://twitter.com/remco_verhoef</a></li>
+            <li><a href="https://twitter.com/dutchcoders">https://twitter.com/dutchcoders</a></li>
+        </ul>
+    </div>
+    <div class="docs-section" id="source">
+        <h6 class="docs-header"><b>Source code</b></h6>
+        <p>Source code is available at <a href="https://github.com/dutchcoders/xkcdbot">https://github.com/dutchcoders/xkcdbot</a></p>
+    </div>
+    <div class="docs-section" id="copyright">
+        <h6 class="docs-header"><b>Copyright and license</b></h6>
+        <p>Code and documentation copyright 2011-2015 Remco Verhoef. Code released under the MIT license.</p>
     </div>
 </div>
 </body>

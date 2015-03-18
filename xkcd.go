@@ -161,8 +161,6 @@ func help(sc *slackbot.Context, w http.ResponseWriter) {
 }
 
 func xkcd(sc *slackbot.Context, w http.ResponseWriter) {
-	// 	var err error
-
 	r := regexp.MustCompile(`(random|latest|help)?\s*(.*)`)
 
 	matches := r.FindAllStringSubmatch(sc.Text, -1)
