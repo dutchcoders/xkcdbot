@@ -1,1 +1,1 @@
-web: bin/keybasebot
+web: bin/xkcdbot
