@@ -1,0 +1,12 @@
+{
+  "name": "XKCD-bot",
+  "description": "A xkcd integration for Slack",
+  "repository": "https://github.com/dutchcoders/xkcdbot",
+  "keywords": ["node", "express", "static"]
+  "success_url": "/",
+  "env": {
+    "SLACK_TOKEN": "",
+    "WEBHOOK_URL": "",
+    "BUILDPACK_URL": "https://github.com/kr/heroku-buildpack-go.git"
+  }
+}
