@@ -1,0 +1,18 @@
+baseurl: "https://xkcdbot.herokuapp.com/"
+title: "XKCD bot"
+staticdir: "../static/"
+DisqusShortname: "YOUR_SHORT_NAME_HERE"
+Copyright: "All rights reserved - 2015"
+
+params:
+    description: "this is my description"
+    cover: "images/cover.jpg"
+    author: "Dutchcoders"
+    logo: "images/logo.png"
+    bio: "my bio"
+    googleAnalyticsUserID: "UA-79101-12"
+
+permalinks:
+    post: "/:slug/"
+
+

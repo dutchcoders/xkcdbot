@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>XKCDbot: Slackbot for XKCDbot</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+</head>
+<body>
+<div class="container">
+    <section class="header">
+        <h2 class="title">XKCDbot</h2>
+    </section>
+    <div class="docs-section" id="intro">
+        <h6 class="docs-header"><b>Introduction</b></h6>
+        <p>The XKCD bot will surprise you with random XKCD images.</p>
+    </div>
+    <div class="docs-section" id="intro">
+        <h6 class="docs-header"><b>Configure your Slack Integrations</b></h6>
+        <p> 
+        <ul>
+            <li>Create a new <a href="https://api.slack.com/slash-commands">Slash Command</a></li>
+            <ul>
+                <li>Name the command /xkcd</li>
+                <li>Set the URL to be <a href="https://xkcdbot.herokuapp.com/">https://xkcdbot.herokuapp.com/</a>.</li>
+                <li>Method should be POST</li>
+                <li>Add some usefull information and usage information</li>
+            </ul>
+        </ul>
+        <ul>
+            <li>Create a new <a href="https://api.slack.com/incoming-webhooks">Incoming Webhook</a></li>
+            <ul>
+                <li>Name the command /keybase</li>
+                <li>Set the URL to be <a href="https://xkcdbot.herokuapp.com/">https://xkcdbot.herokuapp.com/</a>.</li>
+                <li>Method should be POST</li>
+                <li>Add some usefull information and usage information</li>
+            </ul>
+        </ul>
+    </div>
+    <div class="docs-section" id="intro">
+        <h6 class="docs-header"><b>Usage</b></h6>
+        <p>Ok, now you can test the integration. Type <pre>/xkcd</pre> in Slack, and you'll get the response.</a>
+        <br/>
+        <img src="img/screenshot.png" style="width: 400px;"/>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Keybase bot</title>
+    <link>https://keybasebot.herokuapp.com/post/</link>
+    <description>Recent content in Posts on Keybase bot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+    
+    
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UT</lastBuildDate>
+    <atom:link href="https://keybasebot.herokuapp.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>https://keybasebot.herokuapp.com</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UT</pubDate>
+      
+      <guid>https://keybasebot.herokuapp.com</guid>
+      <description>
+
+&lt;h1 id=&#34;hello:d680e8a854a7cbad6d490c445cba2eba&#34;&gt;Hello&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

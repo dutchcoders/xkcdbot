@@ -1,0 +1,33 @@
+{
+	"ImportPath": "_/Users/remco/Projects/xkcdbot",
+	"GoVersion": "go1.4.2",
+	"Packages": [
+		"xkcdbot"
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/dutchcoders/slackbot",
+			"Rev": "c1630094391424d834f628bd596bcee40281040d"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Rev": "215affda49addc4c8ef7e2534915df2c8c35c6cd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Rev": "8a875a034c69b940914d83ea03d3f1299b4d094b"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Rev": "ab5b3a61f5b6aa323d66ece457334396c4ccdd03"
+		},
+		{
+			"ImportPath": "github.com/nlopes/slack",
+			"Rev": "4a78045ef8aabf726224c19fb2c91fc01a98a3c6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "3d87fd621ca9a824c5cff17216ce44769456cb3f"
+		}
+	]
+}
